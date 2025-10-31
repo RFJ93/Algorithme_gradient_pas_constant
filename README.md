@@ -15,8 +15,8 @@ La descente de gradient est un algorithme fondamental en optimisation, utilisé 
 - Critère d'arrêt basé sur une **tolérance** sur le déplacement entre itérés.
 - Suivi du **nombre d'itérations** et de la **suite des points** pour visualisation.
 - Support pour :
-  - Fonctions 1D (ex: $$f(x) = x^2$$, $$f(x) = sin(x) + 0.1 x^2$$)
-  - Fonctions multidimensionnelles (ex: \(f(x,y) = x^2 + 2y^2\), Rosenbrock)
+  - Fonctions 1D (ex: $$f(x) = x^2$$)
+  - Fonctions multidimensionnelles (ex: $$f(x,y) = x^2 + 2y^2$$)
 - Visualisation avec `matplotlib` :
   - Courbes 1D avec points de descente
   - Contours 2D avec chemin de descente
